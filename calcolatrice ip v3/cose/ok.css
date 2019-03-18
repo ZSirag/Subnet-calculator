@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+th{
+  background-color: #030d15;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: -8px;
+}
+
+th, td {
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.button {
+  width: 100%;
+  padding: 8px;
+  background-color: #071324;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #020304;
+}
+.button:active{position: relative;top: 1px;}
+.body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.bb {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centro {
+  width: 300px;
+  height: 250px;
+  background-color: rgba(0,58,141,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+}
+.icona {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 23 , 69, 0.3);
+  border-radius: 28px;
+  margin-top: 8px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+input,.btn {
+  border: none;
+  color: white;
+  width: 100%;
+  font-size: 18px;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+input{margin-left: 5px;margin-right: 15px; background-color: transparent;}
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.nico {background-color: rgba(4, 47, 35, 0.5);}
+.fico {background-color: rgba(255, 0, 0, 0.5);}
+.btn:active{
+position: relative;
+top: 1px;
+}
+form {
+  margin-top: 0;
+  width: 100%;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px black inset;
+}
+input, textarea { background: transparent; }
+.btn:hover, label{cursor: pointer;}
